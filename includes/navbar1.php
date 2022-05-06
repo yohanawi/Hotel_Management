@@ -42,7 +42,7 @@
       <a class="collapse-item" href="#">Attendance Staff</a>
       <a class="collapse-item" href="new_client.php">New Client</a>
       <a class="collapse-item" href="Staff-salary.php">Staff Salary</a>
-      <a class="collapse-item" href="manage_staff-salary.php">Manage Staff Salary</a>
+      <a class="collapse-item" href="#">Manage Staff Salary</a>
       <a class="collapse-item" href="Staff-report.php">Staff report</a>
     </div>
   </div>
@@ -59,10 +59,9 @@
       <h6 class="collapse-header">Custom Components:</h6>
       <a class="collapse-item" href="bills.php">Bills</a>
       <a class="collapse-item" href="manage_bill.php">Mange Bills</a>
-      <a class="collapse-item" href="#">Repairs</a>
-      <a class="collapse-item" href="#">Incomes</a>
-      <a class="collapse-item" href="#">Expenses</a>
-      <a class="collapse-item" href="#">Manage Client</a>
+      <a class="collapse-item" href="repair.php">Repairs</a>
+      <a class="collapse-item" href="income.php">Incomes</a>
+      <a class="collapse-item" href="expense.php">Expenses</a>
       <a class="collapse-item" href="#">Maintain Report</a>
     </div>
   </div>
