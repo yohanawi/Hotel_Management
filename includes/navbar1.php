@@ -76,13 +76,13 @@
   <div id="purchasing" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
     <div class="bg-white py-2 collapse-inner rounded">
       <h6 class="collapse-header">Custom Components:</h6>
-      <a class="collapse-item" href="fooditem.php">Food Item</a>
-      <a class="collapse-item" href="#">Manage Food Item</a>
-      <a class="collapse-item" href="#">Beverage</a>
-      <a class="collapse-item" href="#">Manage Beverage</a>
-      <a class="collapse-item" href="#">Furniture</a>
-      <a class="collapse-item" href="#">Manage Furniture</a>
-      <a class="collapse-item" href="#">Manage Menu</a>
+      <a class="collapse-item" href="food.php">Food Item</a>
+      <a class="collapse-item" href="manage_food.php">Manage Food Item</a>
+      <a class="collapse-item" href="beverage.php">Beverage</a>
+      <a class="collapse-item" href="manage_beverage.php">Manage Beverage</a>
+      <a class="collapse-item" href="furniture.php">Furniture</a>
+      <a class="collapse-item" href="manage_furniture.php">Manage Furniture</a>
+      <a class="collapse-item" href="manage_menu.php">Manage Menu</a>
       <a class="collapse-item" href="#">Menu</a>
       <a class="collapse-item" href="#">Purchasing Report </a>
     </div>

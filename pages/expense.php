@@ -63,7 +63,7 @@ include "/xampp/htdocs/systemhotel/pages/modal/expense_read.php";
                 </div>
             </div>
         </div>
-        <img src="../images/8370.jpg" width="50%">
+        <img src="../images/Wavy_Tech-04_Single-01.jpg" width="50%">
     </div> 
 
     <img src="" width="10%">

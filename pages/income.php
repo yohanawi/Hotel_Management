@@ -17,6 +17,7 @@ include "/xampp/htdocs/systemhotel/pages/modal/income_read.php";
         </ol>
     </div>
     <div class="row">
+    <img src="../images/NA_SEP._29.jpg" width="50%">
         <div class="col-lg-5">
             <div class="p-5">
                 <div class="text-center">
@@ -63,7 +64,7 @@ include "/xampp/htdocs/systemhotel/pages/modal/income_read.php";
                 </div>
             </div>
         </div>
-        <img src="../images/8370.jpg" width="50%">
+       
     </div> 
 
     <img src="" width="10%">
