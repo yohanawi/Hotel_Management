@@ -17,11 +17,11 @@ if (isset($_POST['minsertbtn'])) {
 	$menu_data = '&mname='.$mname. '&mcat='.$mcat. '&mtype='.$mtype. '&mprice='.$mprice;
 
 	if (empty($mname)) {
-		header("Location: /manage_menu.php?error=name is required&$menut_data");
+		header("Location: /manage_menu.php?error=name is required&$menu_data");
 	}else if (empty($mcat)) {
 		header("Location: /manage_menu.php?error=categorise is required&$menu_data");
 	}else if (empty($mtype)) {
-		header("Location: /manage_menut.php?error=type is required&$menut_data");
+		header("Location: /manage_menu.php?error=type is required&$menu_data");
 	}else if (empty($mprice)) {
 		header("Location: /manage_menu.php?error=price is required&$menu_data");
 	}else {

@@ -99,12 +99,12 @@
     <div class="bg-white py-2 collapse-inner rounded">
       <h6 class="collapse-header">Custom Components:</h6>
       <a class="collapse-item" href="wedding.php">Weddings</a>
-      <a class="collapse-item" href="#">Manage Wedding</a>
-      <a class="collapse-item" href="#">Packages</a>
-      <a class="collapse-item" href="#">Party</a>
-      <a class="collapse-item" href="#">Manage Party</a>
-      <a class="collapse-item" href="#">Rooms</a>
-      <a class="collapse-item" href="#">Booking Room</a>
+      <a class="collapse-item" href="manage_wedding.php">Manage Wedding</a>
+      <a class="collapse-item" href="package.php">Packages</a>
+      <a class="collapse-item" href="party.php">Party</a>
+      <a class="collapse-item" href="manage_party.php">Manage Party</a>
+      <a class="collapse-item" href="room.php">Rooms</a>
+      <a class="collapse-item" href="roombook.php">Booking Room</a>
       <a class="collapse-item" href="#">Reservation Report</a>
     </div>
   </div>
