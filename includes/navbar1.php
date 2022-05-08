@@ -39,10 +39,10 @@
       <h6 class="collapse-header">Custom Components:</h6>
       <a class="collapse-item" href="new_staff.php">New Staff</a>
       <a class="collapse-item" href="manage_staff.php">Manage Staff</a>
-      <a class="collapse-item" href="#">Attendance Staff</a>
+      <a class="collapse-item" href="attendance.php">Attendance Staff</a>
       <a class="collapse-item" href="new_client.php">New Client</a>
       <a class="collapse-item" href="Staff-salary.php">Staff Salary</a>
-      <a class="collapse-item" href="#">Manage Staff Salary</a>
+      <a class="collapse-item" href="manage_staff-salary.php">Manage Staff Salary</a>
       <a class="collapse-item" href="Staff-report.php">Staff report</a>
     </div>
   </div>
@@ -62,7 +62,7 @@
       <a class="collapse-item" href="repair.php">Repairs</a>
       <a class="collapse-item" href="income.php">Incomes</a>
       <a class="collapse-item" href="expense.php">Expenses</a>
-      <a class="collapse-item" href="#">Maintain Report</a>
+      <a class="collapse-item" href="maintain-report.php">Maintain Report</a>
     </div>
   </div>
 </li>
@@ -84,7 +84,7 @@
       <a class="collapse-item" href="manage_furniture.php">Manage Furniture</a>
       <a class="collapse-item" href="manage_menu.php">Manage Menu</a>
       <a class="collapse-item" href="#">Menu</a>
-      <a class="collapse-item" href="#">Purchasing Report </a>
+      <a class="collapse-item" href="purchasing-report.php">Purchasing Report </a>
     </div>
   </div>
 </li>
@@ -105,7 +105,7 @@
       <a class="collapse-item" href="manage_party.php">Manage Party</a>
       <a class="collapse-item" href="room.php">Rooms</a>
       <a class="collapse-item" href="roombook.php">Booking Room</a>
-      <a class="collapse-item" href="#">Reservation Report</a>
+      <a class="collapse-item" href="reservation-report.php">Reservation Report</a>
     </div>
   </div>
 </li>

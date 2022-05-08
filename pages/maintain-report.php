@@ -1,7 +1,7 @@
 <?php
 include('../includes/header.php'); 
 include('../includes/navbar1.php'); 
-include "/xampp/htdocs/systemhotel/pages/modal/staff_read.php"; 
+include "/xampp/htdocs/systemhotel/pages/modal/Bill_read.php"; 
 ?>
 
 <!-- Begin Page Content -->
@@ -18,21 +18,26 @@ include "/xampp/htdocs/systemhotel/pages/modal/staff_read.php";
     </div>
     <!--page body-->
     <div class="row">
-    <img src="" width="10%">
+      <img src="" width="10%">
       <div class="col-xs-12">
         <div class="box">
-          <div class="box-header with-border text-center">
-              <p> Staff table </p>
-          </div>
-          <div class="box-body " >
+          <?php if (isset($_GET['success'])) { ?>
+		      <div class="alert alert-success" role="alert">
+			      <?php echo $_GET['success']; ?>
+		      </div>
+		      <?php } ?>
+              <div class="box-header with-border text-center">
+                 <p> Bill table </p>
+                </div>
+          <div class="box-body">
             <?php if (mysqli_num_rows($result)) { ?>
             <table class="table table-bordered">
               <thead>
-                <th>Staff ID</th>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Phone</th>
-                <th>Address</th>
+                <th>Bill ID</th>
+                <th>Description</th>
+                <th>cost</th>
+                <th>date</th>
+                
               </thead>
               <tbody>
               <?php 
@@ -41,11 +46,11 @@ include "/xampp/htdocs/systemhotel/pages/modal/staff_read.php";
 			  	      $i++;
 			  	    ?>
                 <tr>
-                  <td><?=$rows['sid'];?></td>
-                  <td><?php echo $rows['sname']; ?></td>
-                  <td><?php echo $rows['semail']; ?></td>
-                  <td><?php echo $rows['sphone']; ?></td>
-                  <td><?php echo $rows['saddress']; ?></td>
+                  <td><?=$rows['bid'];?></td>
+                  <td><?php echo $rows['bdes']; ?></td>
+                  <td><?php echo $rows['bcost']; ?></td>
+                  <td><?php echo $rows['bdate']; ?></td>
+                  
                 </tr>
                 <?php } ?>
               </tbody>

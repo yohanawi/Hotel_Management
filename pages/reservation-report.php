@@ -1,7 +1,7 @@
 <?php
 include('../includes/header.php'); 
 include('../includes/navbar1.php'); 
-include "/xampp/htdocs/systemhotel/pages/modal/staff_read.php"; 
+include "/xampp/htdocs/systemhotel/pages/modal/wedding_read.php"; 
 ?>
 
 <!-- Begin Page Content -->
@@ -18,21 +18,33 @@ include "/xampp/htdocs/systemhotel/pages/modal/staff_read.php";
     </div>
     <!--page body-->
     <div class="row">
-    <img src="" width="10%">
+      <img src="" width="10%">
       <div class="col-xs-12">
         <div class="box">
-          <div class="box-header with-border text-center">
-              <p> Staff table </p>
-          </div>
-          <div class="box-body " >
+          <?php if (isset($_GET['success'])) { ?>
+		      <div class="alert alert-success" role="alert">
+			      <?php echo $_GET['success']; ?>
+		      </div>
+		      <?php } ?>
+              <div class="box-header with-border text-center">
+                 <p> wedding table </p>
+                </div>
+                <div class="box-body">
             <?php if (mysqli_num_rows($result)) { ?>
             <table class="table table-bordered">
               <thead>
-                <th>Staff ID</th>
+                <th>ID</th>
                 <th>Name</th>
-                <th>Email</th>
+                <th>NIC</th>
+                <th>Date</th>
                 <th>Phone</th>
-                <th>Address</th>
+                <th>Hall</th>
+                <th>No.people</th>
+                <th>Package</th>
+                <th>Menu</th>
+                <th>Advance</th>
+                <th>Total</th>
+                
               </thead>
               <tbody>
               <?php 
@@ -41,11 +53,18 @@ include "/xampp/htdocs/systemhotel/pages/modal/staff_read.php";
 			  	      $i++;
 			  	    ?>
                 <tr>
-                  <td><?=$rows['sid'];?></td>
-                  <td><?php echo $rows['sname']; ?></td>
-                  <td><?php echo $rows['semail']; ?></td>
-                  <td><?php echo $rows['sphone']; ?></td>
-                  <td><?php echo $rows['saddress']; ?></td>
+                  <td><?=$rows['wid'];?></td>
+                  <td><?php echo $rows['wname']; ?></td>
+                  <td><?php echo $rows['wnic']; ?></td>
+                  <td><?php echo $rows['wdate']; ?></td>
+                  <td><?php echo $rows['wphone']; ?></td>
+                  <td><?php echo $rows['whall']; ?></td>
+                  <td><?php echo $rows['wno']; ?></td>
+                  <td><?php echo $rows['wpack']; ?></td>
+                  <td><?php echo $rows['wmenu']; ?></td>
+                  <td><?php echo $rows['wad']; ?></td>
+                  <td><?php echo $rows['wtot']; ?></td>
+                 
                 </tr>
                 <?php } ?>
               </tbody>

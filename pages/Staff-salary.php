@@ -8,11 +8,11 @@ include('../includes/navbar1.php');
 
   <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">Staff Salary</h1>
+        <h1 class="h3 mb-0 text-gray-800">New Staff</h1>
         <ol class="breadcrumb">
             <li><a href="#"> Home </a></li>
             <li>&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;</li>
-            <li class="active">Staff Salary</li>
+            <li class="active">New Staff</li>
         </ol>
     </div>
     <div class="row">
@@ -27,14 +27,14 @@ include('../includes/navbar1.php');
 		                <?php } ?>
                         <div class="form-group">
                             <div class="row">
-                                <label for="sid" > Staff ID </label>
-                                <input type="id" name="sid" class="form-control form-control-user" placeholder="Enter ID.." value="<?php if(isset($_GET['sid'])) echo($_GET['sid']); ?>" required>
+                                <label for="ssid" > Staff ID </label>
+                                <input type="id" name="ssid" class="form-control form-control-user" placeholder="Enter ID.." value="<?php if(isset($_GET['ssid'])) echo($_GET['ssid']); ?>" required>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="row">
-                                <label for="sname" > Name </label>
-                                <input type="name" name="sname" class="form-control form-control-user" placeholder="Enter Name.." value="<?php if(isset($_GET['sname'])) echo($_GET['sname']); ?>" required>
+                                <label for="ssname" > Name </label>
+                                <input type="name" name="ssname" class="form-control form-control-user" placeholder="Enter Name.." value="<?php if(isset($_GET['ssname'])) echo($_GET['ssname']); ?>" required>
                             </div>
                         </div>
                         <div class="form-group">
@@ -46,13 +46,13 @@ include('../includes/navbar1.php');
                         <div class="form-group">
                             <div class="row">
                                 <label for="sover" > Over time </label>
-                                <input type="text" name="sover" class="form-control form-control-user" placeholder="Enter Overtime.." value="<?php if(isset($_GET['ssover'])) echo($_GET['sover']); ?>" required>
+                                <input type="tetx" name="sover" class="form-control form-control-user" placeholder="Enter Overtime.." value="<?php if(isset($_GET['sover'])) echo($_GET['sover']); ?>" required>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="row">
                                 <label for="sbounce" > Bounce </label>
-                                <input type="number" name="sbounce" class="form-control form-control-user" placeholder="Enter Bounce.." value="<?php if(isset($_GET['sbounce'])) echo($_GET['sbounce']); ?>" required>
+                                <input type="text" name="sbounce" class="form-control form-control-user" placeholder="Enter Bounce.." value="<?php if(isset($_GET['sbounce'])) echo($_GET['sbounce']); ?>" required>
                             </div>
                         </div>
                         <div class="form-group">
@@ -68,7 +68,7 @@ include('../includes/navbar1.php');
                 </div>
             </div>
         </div>
-        <img src="../images/3992745.jpg" width="50%">
+        <img src="../images/Mobile-login-Cristina.jpg" width="50%">
     </div> 
 </div>
 
