@@ -13,7 +13,10 @@ include('../includes/navbar1.php');
 
   
 </div>
-  
+
+<div class="row" style="padding-left:450px;">  <h1>!! Welcome to Hotel !!</h1></div>
+
+ 
 
   <?php
 include('../includes/scripts.php');

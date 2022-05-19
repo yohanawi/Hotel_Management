@@ -1,67 +1,57 @@
-
-.row .btns .btn1 {
-    border: none;
-    color: white;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-
-.row .btns .btn1 {
-      background-color: #ff9800; 
-      color: black;
-    } 
-
-.row .btns .btn1:hover {
-    background: #ddd;
-}
-
-.row .btns .btn2 {
-    border: none;
-    color: white;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-
-.row .btns .btn2 {
-      background-color: #ff9800; 
-      color: black;
-    } 
-
-.row .btns .btn2:hover {
-    background: #ddd;
-}
-
-
-
-
 .container {
-	min-height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+
+  min-height: 100vh;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  flex-direction: column;
+
 }
+
+
 
 .container form {
-	width: 500px;
-	padding: 20px;
-	border-radius: 10px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  width: 500px;
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
+
 .box {
-	width: 750px;
+
+  width: 750px;
+
 }
+
 .container table {
-	padding: 20px;
-	border-radius: 10px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
+
 .link-right {
-	display: flex;
-	justify-content: flex-end;
+
+  display: flex;
+
+  justify-content: flex-end;
+
 }
+
+
+
 
 
 
