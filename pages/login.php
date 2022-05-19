@@ -32,10 +32,10 @@ include('../includes/navbar.php');
                 <form class="user" action="modal/login_code.php" method="POST">
 
                     <div class="form-group">
-                    <input type="username" name="username" class="form-control form-control-user" placeholder="Enter Username...">
+                    <input type="username" name="username" class="form-control form-control-user" placeholder="Enter Username..."required>
                     </div>
                     <div class="form-group">
-                    <input type="password" name="password" class="form-control form-control-user" placeholder="Password">
+                    <input type="password" name="password" class="form-control form-control-user" placeholder="Password"required>
                     </div>
             
                     <button type="submit" name="login_btn" class="btn btn-primary btn-user btn-block"> Login </button>
